@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/weather.css">
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="contain">
+            <h3 class="brand">The Weather</h3>
+           <div class="d-flex align-items-center justify-content-center">
+                <h2 class="temp"> </h2>
+                <div class="city-time">
+                    <h1 class="name">Paris</h1>
+                    <small>
+                        <span class="time"> </span>
+                        -
+                        <span class="date"> </span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="img/113 (1).webp" alt="icon" class="icon">
+                    <span class="condation"> </span>
+                </div>
+            </div>  
+        </div>    
+                    <div class="panel">
+                       
+                            <input type="search" class="search" placeholder="search location ....." id="locationInput">
+                            <button type="submit" class="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        <ul class="cities">
+                            <li class="city">London</li>
+                            <li class="city">Libya</li>
+                            <li class="city">India</li>
+                            <li class="city">Ukraine</li>
+                            <li class="city">Egypt</li>
+                        </ul>
+                         <ul class="details">
+                            <h4> Weather Details </h4>
+                            <li>
+                                <span>cloudy</span>
+                                <span class="cloud">89%</span>
+                            </li>
+                            <li>
+                                <span>Humidity</span>
+                                <span class="humidity">64%</span>
+                            </li>
+                            <li>
+                                <span>Wind</span>
+                                <span class="wind">8km/h</span>
+                            </li>
+                         </ul>
+                    </div> 
+    </div>
+   
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/weather.js"></script>
+</body>
+
+</html>
