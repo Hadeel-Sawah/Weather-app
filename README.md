@@ -10,7 +10,7 @@
 
 ###
 
-<h3 align="left">1️⃣  git clone <clone url></h3>
+<h3 align="left">1️⃣  git clone (repo clone url)</h3>
 
 ###
 
@@ -18,7 +18,11 @@
 
 ###
 
-<h3 align="left">3️⃣ Run it using the live server</h3>
+<h3 align="left">3️⃣  open (index.html) file</h3>
+
+###
+
+<h3 align="left">4️⃣ Run it using the live server</h3>
 
 ###
 
@@ -39,6 +43,20 @@
 ###
 
 <img src="img/readme.gif" alt="gif" />
+
+###
+
+<h2 align="left">Project Structure</h2>
+
+###
+
+    ├── css                     # Project Styling 
+    ├── img                     # Project Assest (Images)
+    ├── js                      # Project Logic (JavaScript codes)
+    ├── weather                 # Some weather icons
+    ├── webfonts                # Project fonts
+    ├── index.html              # Project main html file
+    ├── README.md               # Docs file
 
 ###
 
